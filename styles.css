@@ -1,0 +1,11 @@
+.time-notifier-info {
+    padding: 10px;
+    background-color: var(--background-secondary);
+    border-radius: 5px;
+    border-left: 3px solid var(--interactive-accent);
+    margin-bottom: 20px;
+}
+
+.time-notifier-info::before {
+    content: "⏰ ";
+}
